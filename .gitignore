@@ -1,0 +1,22 @@
+# Secrets
+.env
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+# System files
+.DS_Store
+Thumbs.db
+# Logs
+*.log
+# Temporary files
+tmp/
